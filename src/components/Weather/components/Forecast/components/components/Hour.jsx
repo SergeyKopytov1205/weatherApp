@@ -10,7 +10,7 @@ const Hour = ({ data }) => {
          <div className={style.weather}>
             <div className={style.temp}>{Math.trunc(data.main.temp)}&deg;</div>
             <div className={style.pic}>
-               <img src={`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`} alt={data.weather[0].description} />
+               <img width='40' height='40' src={`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`} alt={data.weather[0].description} />
             </div>
          </div>
       </div>

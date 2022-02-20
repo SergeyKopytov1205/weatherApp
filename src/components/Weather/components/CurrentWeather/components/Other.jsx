@@ -6,7 +6,7 @@ const Other = ({ weather, humidity, pressure }) => {
       <div className={style.container}>
          <div className={style.weather}>
             <div className={style.icon}>
-               <img src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt={weather.weather[0].description} />
+               <img width='120' height='124' src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt={weather.weather[0].description} />
             </div>
             <div className={style.desc}>{weather.weather[0].description}</div>
          </div>

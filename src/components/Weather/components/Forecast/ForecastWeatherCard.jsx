@@ -10,8 +10,8 @@ const ForecastWeatherCard = ({ data }) => {
       <div className={style.container}>
          {Object.keys(data).map((day, index) => {
             return (
-               <div className={style.wrapper}>
-                  <DayCard key={index} data={data[day]} day={day} />
+               <div className={style.wrapper} key={index}>
+                  <DayCard data={data[day]} day={day} />
                </div>
             )
          })}
