@@ -1,0 +1,16 @@
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+.error {
+   font-size: 1.1em;
+   color: rgb(100, 0, 0);
+   font-style: italic;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+

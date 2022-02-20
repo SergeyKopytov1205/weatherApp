@@ -1,0 +1,18 @@
+.message {
+   text-align: center;
+   font-size: 0.8em;
+   font-style: italic;
+   color: rgb(0, 0, 100);
+}
+
+.message_error {
+   color: rgb(100, 0, 0);
+}
+
+.message_success {
+   color: rgb(0, 100, 0);
+}
+
+.message_load {
+   color: rgb(236, 236, 122);
+}

@@ -1,0 +1,37 @@
+.container {
+   display: flex;
+   width: 200px;
+   height: 200px;
+   background: #eee;
+   border-radius: 20px;
+   padding: 20px;
+   flex-wrap: wrap;
+}
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3em;
+   font-weight: 800;
+}
+.range {
+   margin-left: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-size: 0.8em;
+}
+.feels {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   font-style: italic;
+}
+.feels span {
+   font-style: normal;
+   font-size: 2em;
+   font-weight: 800;
+}
